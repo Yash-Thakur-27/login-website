@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Help | Web Development</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+
+    header {
+      background-color: rgb(72, 66, 66);
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+
+    main {
+      margin-top: 120px;
+      padding: 20px;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .faq-section, .contact-section, .resources-section {
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      padding: 25px;
+      margin-bottom: 30px;
+    }
+
+    .section-title {
+      font-size: 26px;
+      margin-bottom: 20px;
+      color: #444;
+      border-left: 5px solid #555;
+      padding-left: 10px;
+    }
+
+    .faq-item {
+      margin-bottom: 15px;
+    }
+
+    .faq-question {
+      font-weight: bold;
+      cursor: pointer;
+      color: #222;
+    }
+
+    .faq-answer {
+      margin-top: 5px;
+      padding-left: 15px;
+      color: #555;
+    }
+
+    a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 8px;
+      margin-bottom: 16px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    .contact-form button {
+      background-color: rgb(72, 66, 66);
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .contact-form button:hover {
+      background-color: rgb(50, 45, 45);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Need Help? We're Here!</h1>
+  </header>
+
+  <main>
+    <section class="faq-section">
+      <div class="section-title">❓ Frequently Asked Questions</div>
+
+      <div class="faq-item">
+        <div class="faq-question">What is web development?</div>
+        <div class="faq-answer">Web development involves building and maintaining websites using technologies like HTML, CSS, JavaScript, and back-end tools.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">Do I need to learn both front-end and back-end?</div>
+        <div class="faq-answer">Not necessarily. You can specialize in either, or become a full-stack developer who knows both sides.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">Where can I host my website?</div>
+        <div class="faq-answer">Free hosting: GitHub Pages, Netlify. Paid hosting: Hostinger, Bluehost, Vercel, Firebase, AWS.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">What tools do I need to get started?</div>
+        <div class="faq-answer">Start with VS Code, Chrome, Git, and learn basic HTML, CSS, JavaScript.</div>
+      </div>
+    </section>
+
+    <section class="contact-section">
+      <div class="section-title">📞 Contact Support</div>
+
+      <form class="contact-form">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" required />
+
+        <label for="email">Your Email</label>
+        <input type="email" id="email" required />
+
+        <label for="message">Your Message</label>
+        <textarea id="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <section class="resources-section">
+      <div class="section-title">🔗 Useful Resources</div>
+      <ul>
+        <li><a href="https://developer.mozilla.org/" target="_blank">MDN Web Docs</a></li>
+        <li><a href="https://freecodecamp.org" target="_blank">freeCodeCamp</a></li>
+        <li><a href="https://css-tricks.com" target="_blank">CSS-Tricks</a></li>
+        <li><a href="https://stackoverflow.com" target="_blank">Stack Overflow</a></li>
+        <li><a href="https://github.com" target="_blank">GitHub</a></li>
+      </ul>
+    </section>
+  </main>
+
+</body>
+</html>

@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+html {
+    scroll-padding-top: 150px; 
+    scroll-behavior: smooth;
+}
+
+#nav{
+    display: flex;
+    list-style-type:none;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    }
+li {
+    margin: 65px;
+    cursor: pointer;
+    font-size: 22px; 
+    font-weight: bold;
+}
+li:hover{
+    text-decoration: underline;
+            
+ }
+header{
+    height: fit-content;
+    background-color: rgb(72, 66, 66);
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+h1{
+    text-align: center;
+            
+}
+.box2{
+    border: 2px solid black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px ;
+    max-width: 100%;
+    margin: auto;
+}
+.side-title {
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+.box2 img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+        
+main{margin-top: 200px
+}
+.box2:hover{
+            background-color :#d1c0f1b3;
+            cursor: pointer;
+}
+footer {
+    background-color: rgb(72, 66, 66);
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+    z-index: 10;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.footer-content p {
+    margin: 10px 0;
+    font-size: 18px;
+    line-height: 1.6;
+    transition: color 0.3s ease;
+}
+
+.footer-content p:hover {
+    color: #bda8f9;
+    cursor: default;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div id="box1">
+
+            <ul id="nav">
+                <li><a href="#Home" style="color: white; text-decoration: none;">Home</a></li>
+                <li><a href="#About" style="color: white; text-decoration: none;">About</a></li>
+                <li><a href="/Help.html" style="color: white; text-decoration: none;">Help</a></li>
+            </ul>
+        </div>
+        </header>
+        <main id="Home">
+            <h1>💻Web Development</h1>
+            <br>
+            <div id="big">
+                <div class="side-title">Definition:</div>
+                
+                <div class="box2">
+                    <p>Web Development is the process of creating and maintaining websites and web applications that run on the internet. It involves everything from designing how a site looks (front-end) to making sure it works smoothly behind the scenes (back-end).</p>
+                </div>
+               <br>
+                <div class="side-title">Requirements:</div>
+                <div class="box2">
+                
+1. HTML (HyperText Markup Language)
+The standard language used to structure content on the web. It defines elements like headings, paragraphs, images, links, etc.
+<br><br>
+2. CSS (Cascading Style Sheets)
+Used to style HTML content — control layout, colors, fonts, spacing, and responsiveness.
+<br><br>
+3. JavaScript
+A programming language that makes web pages interactive (e.g., form validation, animations, dynamic content loading).
+<br><br>
+4. Web Hosting & Domain Name
+Domain Name: The address of your website (e.g., www.example.com).
+
+Web Hosting: A server space where your website’s files are stored and accessed via the internet.
+<br><br>
+5. Text Editor or IDE
+Tools like VS Code, Sublime Text, or WebStorm to write and manage code efficiently.
+<br><br>
+6. Web Browser
+To test and view your website (e.g., Chrome, Firefox, Safari).
+<br><br>
+7. Version Control (Git & GitHub)
+Helps track changes in code and collaborate with others. GitHub allows sharing and managing code repositories online.
+<br><br>
+8. Responsive Design
+Ensures your website works on different devices (mobile, tablet, desktop) using techniques like media queries in CSS.
+<br><br>
+9. Backend Technologies (optional)
+For dynamic websites:
+
+Languages: PHP, Python, Node.js
+
+Databases: MySQL, MongoDB
+
+Frameworks: Express, Django, Laravel
+<br><br>
+10. Basic SEO & Performance Knowledge
+Improving website visibility in search engines and ensuring fast loading times.
+                </div>
+            </div>
+            <br>
+            <div class="side-title">✅Type of Web Development:</div>
+            <div class="box2">
+              <img src="TypeOfWebD.png" alt="Type of Web Development">
+            </div>
+            <br>
+            <div class="side-title">⁐Front-End:</div>
+            <div class="box2">
+                Frontend development is the part of web development that focuses on the user interface—what people see and interact with in their browser.
+             <br>
+                If you've ever visited a website and admired its layout, buttons, images, animations, and design, you're looking at the result of frontend development.
+                <br><hr><br>
+                <b>🧠 What Does a Frontend Developer Do?
+                A frontend developer builds and optimizes the user experience (UI/UX). This includes:</b>
+                <br>
+                Designing the structure of the page.
+                <br>
+                Styling content.
+                <br>
+                Making pages responsive (look good on phones, tablets, etc.).
+                <br>
+                Ensuring smooth interaction using JavaScript.
+                <br><hr><br>
+               <b> 🔧 Core Technologies
+                Technology	Description
+                HTML (HyperText Markup Language)</b><br>	Structures the content of web pages.
+                CSS (Cascading Style Sheets)	Styles the HTML—colors, layouts, fonts, etc.
+                JavaScript	Adds interactivity (like buttons that respond, dropdowns, animations).
+                <br><hr><br>
+               <b> ⚙️ Tools & Frameworks
+                	JavaScript library for building UIs (very popular).</b>
+                    <br>
+                Vue.js / Angular	Other JavaScript frameworks.
+                Tailwind CSS / Bootstrap	Frameworks for easier styling.
+                Webpack / Vite	Tools for bundling and optimizing frontend code.
+                NPM / Yarn	Package managers for frontend libraries.
+                <br><hr><br>
+               <b> 🎨 Responsibilities of a Frontend Developer</b>
+               <br>
+                Writing clean and responsive HTML/CSS.
+                <br>
+                Using JavaScript to make pages interactive.
+                <br>
+                Ensuring cross-browser compatibility.
+                <br>
+                Collaborating with backend developers.
+                <br>
+                Making the site accessible and performant.
+                <br><hr><br>
+               <b> 📱 Responsive Design
+                Frontend must adapt to different screen sizes:</b>
+                <br>
+                Desktops 🖥️
+                <br>
+                Tablets 📱
+                <br>
+                Phones 📲
+                <br>
+                Using media queries, flexbox, and grid, developers make sure the layout looks good everywhere.
+              </div>
+              <br>
+              <div class="side-title">🧱 Core Components of Back-End:</div>
+              <div class="box2">
+                <b>1. Programming Languages</b><br>
+Back-end developers write server-side logic using:
+<br>
+JavaScript (Node.js) — Fast, popular with full-stack JS.
+<br>
+Python (Flask, Django) — Simple syntax, powerful.
+<br>
+PHP — Widely used (WordPress, Laravel).
+<br>
+Ruby (Rails) — Developer-friendly.
+<br>
+Java / C# — Enterprise-level projects.
+<br>
+<hr>
+<b>2. Web Frameworks</b>
+<pre>
+Frameworks speed up development with built-in tools.
+
+<b>Language	  Popular Frameworks</b>
+JavaScript	   Express.js, NestJS
+Python	       Django, Flask, FastAPI
+PHP	           Laravel, Symfony
+Ruby	       Ruby on Rails
+Java	       Spring Boot
+</pre>
+<hr>
+<pre>
+<b style="font-size: x-large;">3. Databases</b>
+Used to store and retrieve data.
+
+🔹 Relational (SQL)
+Structured tables (rows & columns)
+
+Examples: MySQL, PostgreSQL, SQLite
+
+🔹 Non-Relational (NoSQL)
+Flexible format, often JSON-like
+
+Examples: MongoDB, Firebase, CouchDB
+</pre>
+<hr>
+<pre>
+<b style="font-size: x-large;">4. APIs (Application Programming Interfaces)</b>
+APIs let the front-end communicate with the back-end.
+
+REST API: Based on HTTP methods (GET, POST, PUT, DELETE)
+
+GraphQL: Flexible querying from client
+
+WebSockets: Real-time communication (chat, notifications)
+<hr>
+<b style="font-size: x-large;">5. Authentication & Authorization</b>
+Authentication: Verifying who the user is (login/signup)
+
+Authorization: Checking what user is allowed to do (admin vs user)
+
+Tools:
+Sessions & cookies
+
+JWT (JSON Web Tokens)
+
+OAuth (Google, GitHub login)
+<hr>
+<b style="font-size: x-large;">6. Server & Hosting</b>
+Where your code runs.
+
+Local server (during development): e.g., localhost:3000
+
+Production server (live on the web): Deployed on platforms like:
+
+Heroku, Render, Railway
+
+AWS, DigitalOcean, Firebase
+
+Vercel & Netlify (for some full-stack setups)
+<hr>
+<b style="font-size: x-large;">7. Environment Variables (.env)</b>
+Used to store secrets like API keys, DB passwords safely.
+
+Example:
+
+bash
+Copy
+Edit
+PORT=3000
+DB_URL=mongodb+srv://username:password@cluster.mongodb.net
+JWT_SECRET=mysecretkey
+<hr>
+<b style="font-size: x-large;">8. Common Tools & Concepts</b>
+Postman: Test APIs
+
+CORS: Controls access between front-end and back-end
+
+Middlewares: Functions that run before/after request (e.g., for logging, auth)
+
+MVC Architecture: Model-View-Controller pattern
+
+ORM/ODM: Connect app to DB with models
+
+Sequelize (SQL), Prisma (SQL), Mongoose (MongoDB)
+
+
+
+</pre>
+              </div>
+              <br>
+        <div class="side-title">Language Required For ⁐Front-End:</div>
+        <div class="box2">
+            <table style="width: 100%; border-collapse: collapse; text-align: left; font-family: Arial, sans-serif;">
+                <thead style="background-color: #bda8f9;">
+                    <tr>
+                        <th style="padding: 12px; border: 1px solid #000;">Language</th>
+                        <th style="padding: 12px; border: 1px solid #000;">Purpose</th>
+                        <th style="padding: 12px; border: 1px solid #000;">Example Use</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="padding: 12px; border: 1px solid #000;">HTML</td>
+                        <td style="padding: 12px; border: 1px solid #000;">Structure and content of web pages</td>
+                        <td style="padding: 12px; border: 1px solid #000;">Creating headings, paragraphs, forms, images, etc.</td>
+                    </tr>
+                    <tr style="background-color: #f3efff;">
+                        <td style="padding: 12px; border: 1px solid #000;">CSS</td>
+                        <td style="padding: 12px; border: 1px solid #000;">Styling the visual layout and design</td>
+                        <td style="padding: 12px; border: 1px solid #000;">Changing fonts, colors, layouts, spacing, and animations</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 12px; border: 1px solid #000;">JavaScript</td>
+                        <td style="padding: 12px; border: 1px solid #000;">Adding interactivity and dynamic behavior</td>
+                        <td style="padding: 12px; border: 1px solid #000;">Handling clicks, form validations, API requests, animations</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <br>
+
+        <div class="box2" style="text-align: center;">
+            <a href="#" onclick="toggleInfo('html-info', event)" style="margin: 10px; font-size: 18px;">HTML</a> |
+            <a href="#" onclick="toggleInfo('css-info', event)" style="margin: 10px; font-size: 18px;">CSS</a> |
+            <a href="#" onclick="toggleInfo('js-info', event)" style="margin: 10px; font-size: 18px;">JavaScript</a>
+        </div>
+        
+        
+            <div id="html-info" style="display: none; margin-top: 20px;">
+                <h3>📘 HTML (HyperText Markup Language)</h3>
+                <p>HTML is the backbone of all web pages. It provides the structure and layout using elements like headings, paragraphs, images, links, and forms.</p>
+                <ul>
+                    <li>Elements: &lt;h1&gt;, &lt;p&gt;, &lt;div&gt;, &lt;img&gt;, &lt;a&gt;, etc.</li>
+                    <li>Semantic tags like &lt;article&gt;, &lt;section&gt; improve readability and SEO</li>
+                    <li>Forms allow user input using &lt;input&gt;, &lt;textarea&gt;, &lt;select&gt;</li>
+                </ul>
+            </div>
+        
+            <div id="css-info" style="display: none; margin-top: 20px;">
+                <h3>🎨 CSS (Cascading Style Sheets)</h3>
+                <p>CSS styles your HTML content—deciding the layout, colors, fonts, spacing, and even animations.</p>
+                <ul>
+                    <li>Selectors target elements (e.g., classes, IDs)</li>
+                    <li>Flexbox and Grid for advanced layouts</li>
+                    <li>Media queries make websites responsive</li>
+                </ul>
+            </div>
+        
+            <div id="js-info" style="display: none; margin-top: 20px;">
+                <h3>⚙️ JavaScript</h3>
+                <p>JavaScript adds life to your website by making it interactive and dynamic.</p>
+                <ul>
+                    <li>React to events like clicks and typing</li>
+                    <li>Manipulate DOM elements in real-time</li>
+                    <li>Use APIs to fetch or send data (AJAX/Fetch)</li>
+                </ul>
+            </div>
+        </div>
+        </main>
+        <br>
+        <hr><hr>
+        <section id="About">
+            <h1>📘 About This Website</h1>
+            <div class="box2">
+                <p>
+                    This website is a beginner-friendly guide to understanding the core concepts of <strong>Web Development</strong>. It covers everything from basic frontend technologies like HTML, CSS, and JavaScript to backend fundamentals including databases and APIs.
+                </p>
+                <p>
+                    Whether you're just starting out or brushing up your skills, the content here is designed to be clear, practical, and easy to follow. The goal is to help learners build a strong foundation and gain confidence in creating responsive, interactive websites.
+                </p>
+                <p>
+                    Created by <strong>Yash Thakur</strong> — a passionate tech enthusiast and student, this platform reflects my journey and learnings in the field of full-stack development.
+                </p>
+                <p>
+                    Thanks for visiting! 🚀
+                </p>
+            </div>
+        </section>
+
+        <hr>
+        
+        <footer>
+            <div class="footer-container">
+              <div class="footer-content">
+                <p>🌐 This website is reserved by <strong>Yash Thakur</strong> © 2025</p>
+                <p>Made with ❤️ for learning and development.</p>
+              </div>
+            </div>
+          </footer>
+
+
+          <script>
+            
+            function toggleInfo(id, event) {
+             event.preventDefault();
+             const sections = ['html-info', 'css-info', 'js-info'];
+             sections.forEach(section => {
+             document.getElementById(section).style.display = 'none';
+              });
+             document.getElementById(id).style.display = 'block';
+            }
+
+        </script>
+        
+</body>
+</html>
